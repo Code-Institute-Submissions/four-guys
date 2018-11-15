@@ -143,7 +143,10 @@ footer {
     margin: 20px;
 }
 
-
+.app-logo img {
+     background: url(../images/android.jpg);
+    height: 50px;
+}
 
 
 
