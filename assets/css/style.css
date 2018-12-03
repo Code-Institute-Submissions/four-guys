@@ -4,6 +4,9 @@
 .bg-color-name-title {
     background-color: blue;
 }
+.bg-color-contact {
+    background-color: #ffffff;
+}
     
 .ui-menu-color-home {
     background-color: #e67e22;
@@ -103,12 +106,94 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
+/* -----------menu-list--------*/
+.menu-list {
+    margin-top: 20px;
+    font-weight: 700;
+    
+}
+.menu-list h1:after {
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.menu-list h2 {
+    margin-top:20px;
+    
+}
+
+
+
+.menu-list h3 {
+    margin-top: 30px;
+}
 
 /*-------Hover.css-----------*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
+    
+}
+
+
+/* ---------Button Styling---------*/
+
+.buttons {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  
+    
+}
+
+.btn {
+    border:1px solid #e67e22;
+    padding:10px 30px;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 20px;
+    
+}
+.btn-half {
+    background-color: #e67e22;
+    color: white;
+    
+}
+.btn-full {
+    margin-top: 10px;
+}
+.btn-full:hover {
+    
+    background-color: #e67e22;
+    color: white;
+    transition: all .5s ease-in;
+}
+/* -----------------*/
+
+/*--------contact---------*/
+.contact-heading {
+    font-family: Exo,sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
 }
 
 /*--------Footer---------*/
@@ -144,8 +229,182 @@ footer {
 }
 
 .app-logo img {
-     background: url(../images/android.jpg);
+     
     height: 50px;
+}
+.andrlogo {
+    margin-bottom: 10px;
+}
+
+.ioslogo {
+    margin-top: 5px;
+    float: left;
+}
+/*-----------Main page---------------*/
+.main-pag h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+.main-pag h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.main-pag h1 :after {
+    width: 100px;
+    height: 3px;
+    display: block;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+/*-------------Food Gallerry----------*/
+
+
+/*.food-gallery {
+    list-style: none;
+    width: 100%;
+    
+}
+.food-gallery li {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.food-photos {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.food-photos img {
+
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+        
+}
+
+
+.food-photos img:hover
+{
+   transform: scale(1.05);  
+} 
+
+
+
+
+.food h2 {
+    text-align: center;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.food-name {
+    color:white;
+    font-size: large;
+    text-align: center;
+} */
+
+
+        
+
+/*-------------Background Images----------*/
+
+.bg-images {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+#one{
+    background: url("../images/img1.jpg");
+}
+
+#two{
+    background: url("../images/img2.jpg");
+}
+
+#three{
+    background: url("../images/img3.jpg");
+}
+
+#four{
+    background: url("../images/img4.jpg");
+}
+
+#five{
+    background: url("../images/img5.jpg");
+}
+
+#six{
+    background: url("../images/img6.jpg");
+}
+
+#seven{
+    background: url("../images/img7.jpg");
+}
+
+#eight{
+    background: url("../images/img8.jpg");
+}
+
+
+
+/*-------------Video Clip----------*/
+
+
+.my-video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*-------------Audio Clip----------*/
+
+
+
+/*---------media-querry-------------*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+/* -------------menu-list-----------*/
+
+.menu-list img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.prg_styl {
+    text-align: justify;
+}
+
+.bck-color {
+    background-color: red;
 }
 
 
