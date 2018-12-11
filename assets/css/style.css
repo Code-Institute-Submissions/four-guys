@@ -6,20 +6,21 @@
 }
 .bg-color-contact {
     background-color: #ffffff;
+    
 }
     
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: blue;
 }
 
 .ui-menu-color-menu {
-    background-color: #e67e22;
+    background-color: blue;
 }
 .ui-menu-color-gallery {
-    background-color: #e67e22;
+    background-color: blue;
 }
 .ui-menu-color-contact {
-    background-color: #e67e22;
+    background-color: blue;
 }
 /*---padding,margins,texts--*/
 h1,h2,h3,h4 {
@@ -33,6 +34,8 @@ h1,h2,h3,h4 {
     font-family: "Exo",sans-serif;
     font-weight:300;
     color: #fafafa;
+    margin-top: 10px;
+    margin-bottom: 20px;
     
 }
 .inline-block {
@@ -45,13 +48,15 @@ header {
 }
 .heading {
   text-align: center;
+  height: 140px;
  
 }
 .logo {
     background: url(../images/4glogo.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 360px;
+    background-color: blue;
+    min-height: 60px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -61,15 +66,16 @@ header {
     font-family:"Exo",sans-serif;
     font-weight: 200;
     font-size: 66px;
-    margin-top: 50px;
+    margin-top: 20px;
+    
     color: #ffffff;
 }
 .title {
         font-family:"Roboto",sans-serif;
         font-weight: 200;
         font-size: 26px;
-        margin-top: 20px;
-        margin-bottom: 90px;
+        margin-top: 10px;
+        margin-bottom: 200px;
         color: #ffffff;
 }
 
@@ -80,7 +86,7 @@ header {
     padding:0;
 }
 .menuitem {
-    height: 120px;
+    height: 100px;
     text-align: center;
     padding: 0;
 }
@@ -106,7 +112,40 @@ header {
     font-weight: 300;
     letter-spacing: 2px;
 }
-/* -----------menu-list--------*/
+
+/*-----------Main page---------------*/
+.main-pag h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+.main-pag h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.main-pag h1 :after {
+   width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.main-pag img {
+    background-image: url(assets/images/main.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* -------------menu-list-----------*/
+
+
 .menu-list {
     margin-top: 20px;
     font-weight: 700;
@@ -127,17 +166,24 @@ header {
     
 }
 
-
-
 .menu-list h3 {
     margin-top: 30px;
+}
+.menu-list img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+}
+.prg_styl {
+    text-align: justify;
 }
 
 /*-------Hover.css-----------*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 100px;
     
 }
 
@@ -147,8 +193,6 @@ header {
 .buttons {
     margin-top: 10px;
     margin-bottom: 40px;
-  
-    
 }
 
 .btn {
@@ -162,10 +206,11 @@ header {
 .btn-half {
     background-color: #e67e22;
     color: white;
-    
+    margin-left: 40px;
 }
 .btn-full {
     margin-top: 10px;
+   margin-left: 45px;
 }
 .btn-full:hover {
     
@@ -173,7 +218,6 @@ header {
     color: white;
     transition: all .5s ease-in;
 }
-/* -----------------*/
 
 /*--------contact---------*/
 .contact-heading {
@@ -200,7 +244,7 @@ button[type="submit"] {
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 90px;
     margin: 0;
 }
 
@@ -230,137 +274,19 @@ footer {
 
 .app-logo img {
      
-    height: 50px;
+    height: 45px;
+    border-radius: 15px;
 }
 .andrlogo {
     margin-bottom: 10px;
+   
 }
 
 .ioslogo {
     margin-top: 5px;
     float: left;
+    margin-bottom: 15px;
 }
-/*-----------Main page---------------*/
-.main-pag h1 {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 60px;
-}
-.main-pag h4 {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 30px;
-    
-}
-.main-pag h1 :after {
-    width: 100px;
-    height: 3px;
-    display: block;
-    content: " ";
-    margin: auto;
-    margin-top: 30px;
-}
-/*-------------Food Gallerry----------*/
-
-
-/*.food-gallery {
-    list-style: none;
-    width: 100%;
-    
-}
-.food-gallery li {
-    display: block;
-    width: 100%;
-    float: left;
-}
-
-.food-photos {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-}
-
-.food-photos img {
-
-    width: 100%;
-    height: auto;
-    transform: scale(1.15);
-    transition: all .5s ease-in-out;
-     -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-        
-}
-
-
-.food-photos img:hover
-{
-   transform: scale(1.05);  
-} 
-
-
-
-
-.food h2 {
-    text-align: center;
-    display: block;
-    margin-top: 60px;
-    margin-bottom: 50px;
-}
-.food-name {
-    color:white;
-    font-size: large;
-    text-align: center;
-} */
-
-
-        
-
-/*-------------Background Images----------*/
-
-.bg-images {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-#one{
-    background: url("../images/img1.jpg");
-}
-
-#two{
-    background: url("../images/img2.jpg");
-}
-
-#three{
-    background: url("../images/img3.jpg");
-}
-
-#four{
-    background: url("../images/img4.jpg");
-}
-
-#five{
-    background: url("../images/img5.jpg");
-}
-
-#six{
-    background: url("../images/img6.jpg");
-}
-
-#seven{
-    background: url("../images/img7.jpg");
-}
-
-#eight{
-    background: url("../images/img8.jpg");
-}
-
-
 
 /*-------------Video Clip----------*/
 
@@ -390,23 +316,15 @@ footer {
         max-width: 50%;
     }
 }
-/* -------------menu-list-----------*/
 
-.menu-list img {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 200px;
-    width: 200px;
+
+
+.header {
+    background-image: url(assets/images/main.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
-
-.prg_styl {
-    text-align: justify;
-}
-
-.bck-color {
-    background-color: red;
-}
-
 
 
 
