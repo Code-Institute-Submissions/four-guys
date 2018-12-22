@@ -2,7 +2,7 @@
 
 /*---Colors---*/
 .bg-color-name-title {
-    background-color: blue;
+    background-color: #e67e22;
 }
 .bg-color-contact {
     background-color: #ffffff;
@@ -10,17 +10,17 @@
 }
     
 .ui-menu-color-home {
-    background-color: blue;
+    background-color: #e67e22;
 }
 
 .ui-menu-color-menu {
-    background-color: blue;
+    background-color: #e67e22;
 }
 .ui-menu-color-gallery {
-    background-color: blue;
+    background-color: #e67e22;
 }
 .ui-menu-color-contact {
-    background-color: blue;
+    background-color: #e67e22;
 }
 /*---padding,margins,texts--*/
 h1,h2,h3,h4 {
@@ -55,8 +55,8 @@ header {
     background: url(../images/4glogo.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: blue;
-    min-height: 60px;
+    background-color: #e67e22;
+    min-height: 260px; 
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -67,7 +67,6 @@ header {
     font-weight: 200;
     font-size: 66px;
     margin-top: 20px;
-    
     color: #ffffff;
 }
 .title {
@@ -114,38 +113,13 @@ header {
 }
 
 /*-----------Main page---------------*/
-.main-pag h1 {
-    margin-top: 20px;
-    text-align: center;
-    font-size: 60px;
-}
-.main-pag h4 {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 30px;
+.main {
+    margin-top: 80px;
+    margin-bottom: 80px;
     
 }
-.main-pag h1 :after {
-   width: 100px;
-    height: 2px;
-    background-color: #e67e22;
-    display: block;
-    content: " ";
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.main-pag img {
-    background-image: url(assets/images/main.jpg);
-    height:100vh;
-    background-position: center;
-    background-size: cover;
-}
-
 
 /* -------------menu-list-----------*/
-
-
 .menu-list {
     margin-top: 20px;
     font-weight: 700;
@@ -249,11 +223,11 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+    width: 50px;
+    height: 50px;
+    padding: 23px 0;
     border-radius: 50%;
-    font-size: 13px;
+    font-size: 25px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
@@ -291,14 +265,35 @@ footer {
 /*-------------Video Clip----------*/
 
 
-.my-video {
-    margin-top: 30px;
-    margin-bottom: 30px;
+.video {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 
+
+
 /*-------------Audio Clip----------*/
-
-
+.audio-clip {
+    
+    
+    margin-bottom: 50px;
+    
+}
 
 /*---------media-querry-------------*/
 
@@ -318,14 +313,11 @@ footer {
 }
 
 
-
-.header {
-    background-image: url(assets/images/main.jpg);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
+.mrgn {
+    
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
-
 
 
 
