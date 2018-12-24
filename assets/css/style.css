@@ -116,14 +116,62 @@ header {
 .main {
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+
+
+.mrgn {
     
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #e67e22;
+}
+
+/*--------head-list------------*/
+/*.head-list {
+    margin-top: 20px;
+    font-weight: 700;
+}
+.head-list h2:after {
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+   .head-list h2 {
+    margin-top:20px;
+}
+*/
+
+.head-list h3 {
+    margin-top: 30px;
+}
+.phone-pic img {
+    width: 40%;
+    margin-left: 40%;
+    margin-top:40px;
+}
+.steps3 {
+    margin-top: 50px;
+}
+
+.steps3 div {
+   border:1px solid #e66e22;
+   display:inline-block;
+   border-radius:50%;
+   width:50px;
+   height:50px;
+   text-align:center;
+   line-height:50px;
 }
 
 /* -------------menu-list-----------*/
 .menu-list {
     margin-top: 20px;
     font-weight: 700;
-    
 }
 .menu-list h1:after {
     width: 100px;
@@ -134,10 +182,8 @@ header {
     margin: 0 auto;
     margin-top: 30px;
 }
-
-.menu-list h2 {
+   .menu-list h2 {
     margin-top:20px;
-    
 }
 
 .menu-list h3 {
@@ -158,9 +204,7 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 100px;
-    
 }
-
 
 /* ---------Button Styling---------*/
 
@@ -282,7 +326,6 @@ footer {
     margin-bottom: 50px;
     margin-left: 10%;
     margin-right: 10%;
-    
 }
 
 
@@ -313,11 +356,7 @@ footer {
 }
 
 
-.mrgn {
-    
-    margin-top: 100px;
-    margin-bottom: 20px;
-}
+
 
 
 
