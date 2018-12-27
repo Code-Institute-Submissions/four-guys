@@ -37,9 +37,11 @@ In That section mentioned opening hrs for whole week.
 In that section mentioned three social media facebook,twitter and youtube to follow us.
 
 ## lINKS
-https://www.w3schools.com ,
-https://developer.mozilla.org/en-US/docs/Web/CSS/@media ,
-https://www.google.com
+https://www.w3schools.com ,,
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media ,,
+https://www.google.com ,, 
+https://www.bootstrapcdn.com ,,
+https://www.youtube.com/results?search_query=media+queries+for+responsive+design
 
 
 
