@@ -8,26 +8,35 @@
 
 *This project is about the Indian take away named 4-GUYS.
 *There are four forms (1)Main page or Home (2) Menu (3)Gallery (4) Contact along with header and footer.
-*in Header section i put a logo on the top left corner.
-*(1)  HOME.
+
+##  HOME.
 *In main page its explain how to order online and get 20% off every online order and explained in 4 simple steps.
-*(2)  MENU.
+##  MENU.
 *In Menu page list of food items with relative pictures and discription along with two buttons mentioning the price 
  and the second button for order the food.
-*(3) GALLERY.
+## GALLERY.
 *In that page i tried to put the pictures of all available food along with their names in food gallery section.
 Also i have used a youtube video as an iframe to explain the recepie of one of our best best food.
 Also i included a audio clip in the gallery section.
-*(4) CONTACT
+## CONTACT
 *That's the last section of my project and in that i designed a form for customers to contact us and do any kind of inquiry 
 regarding our food and website issues etc.
-*Footer section contains three sections (1)Download (2)Opening and Closing Times (3)Follows Us
-*(1) DOWNLOAD.
+### Header section 
+*i put a logo on the top left corner.
+### Footer section 
+*contains three sections (1)Download (2)Opening and Closing Times (3)Follows Us
+### DOWNLOAD.
 *In Download section mentioned apps for android and ios.
-*(2) OPENING HOURS.
+### OPENING HOURS.
 *In That section mentioned opening hrs for whole week.
-*(3) FOLLOW US.
+### FOLLOW US.
 *In that section mentioned three social media facebook,twitter and youtube to follow us.
+
+## links Examples
+https://www.w3schools.com
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+https://www.google.com
+
 
 
 
