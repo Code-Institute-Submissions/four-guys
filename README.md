@@ -18,11 +18,11 @@
 *In that page i tried to put the pictures of all available food along with their names in food gallery section.
 Also i have used a youtube video as an iframe to explain the recepie of one of our best best food.
 Also i included a audio clip in the gallery section.
-## CONTACT
+## CONTACT.
 *That's the last section of my project and in that i designed a form for customers to contact us and do any kind of inquiry 
 regarding our food and website issues etc.
 ### Header section 
-*i put a logo on the top left corner.
+*i put a logo on the top left corner.On the right side  used four font awsome images as home,menu,gallery and contact.
 ### Footer section 
 *contains three sections (1)Download (2)Opening and Closing Times (3)Follows Us
 ### DOWNLOAD.
@@ -33,9 +33,9 @@ regarding our food and website issues etc.
 *In that section mentioned three social media facebook,twitter and youtube to follow us.
 
 ## links Examples
-https://www.w3schools.com
-https://developer.mozilla.org/en-US/docs/Web/CSS/@media
-https://www.google.com
+*https://www.w3schools.com ,
+*https://developer.mozilla.org/en-US/docs/Web/CSS/@media ,
+*https://www.google.com
 
 
 
