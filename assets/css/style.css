@@ -23,9 +23,7 @@
     background-color: #e67e22;
 }
 /*---padding,margins,texts--*/
-/*h1,h2,h3,h4 {
-    margin: 0;
-} */
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -34,7 +32,7 @@
     font-family: "Exo",sans-serif;
     font-weight:300;
     color: #fafafa;
-    margin-top: 10px;
+   margin-top: 20px;
     margin-bottom: 20px;
     
 }
@@ -43,9 +41,7 @@
 }
 
 /*---Headings---*/
-header {
-    margin: 0;
-}
+
 .heading {
   text-align: center;
   height: 140px;
@@ -60,6 +56,7 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
 }
  
 .name {
@@ -118,8 +115,6 @@ header {
     margin-bottom: 80px;
 }
 
-
-
 .mrgn {
     
     margin-top: 50px;
@@ -129,9 +124,10 @@ header {
 
 /*--------head-list------------*/
 
-.head-list h3 {
-    margin-top: 30px;
-}
+/*.head-list h3 {
+    margin-top: 30px; 
+} */
+
 .phone-pic img {
     width: 40%;
     margin-left: 30%;
@@ -181,6 +177,29 @@ header {
 .prg_styl {
     text-align: justify;
 }
+/*-------gallery-list----------*/
+
+.gallery-list {
+    margin-top: 20px;
+    font-weight: 700;
+}
+.gallery-list h1:after {
+    width: 100px;
+    height: 2px;
+    background-color: #e67e22;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.gallery-list img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+}
+
 
 /*-------Hover.css-----------*/
 
@@ -224,8 +243,8 @@ header {
 .contact-heading {
     font-family: Exo,sans-serif;
     font-weight: 300;
-    margin-top: 35px;
-   /* margin-bottom: 5px; */
+    margin-top: 55px;
+  
 }
 
 .center-form {
@@ -289,30 +308,6 @@ footer {
     margin-bottom: 15px;
 }
 
-/*-------------Video Clip----------*/
-
-/*
-.video {
-    position: relative;
-    padding-bottom: 56.25%; 
-    padding-top: 25px;
-    height: 0;
-    
-}
-.video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 80%;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-*/
-
 /*-------------Audio Clip----------*/
 .audio-clip {
     
@@ -337,7 +332,7 @@ footer {
         max-width: 50%;
     }
 }
-
+/*-------------Video Clip query----------*/
 @media screen and (max-width:700px){
     .video iframe {
         width: 50%;
@@ -346,7 +341,7 @@ footer {
 
 @media screen and (max-width:400px){
     .video iframe {
-        width: 100%;
+        width: 90%;
        
     }
 }
