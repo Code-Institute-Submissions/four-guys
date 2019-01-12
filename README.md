@@ -1,14 +1,10 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+   
 # 4-GUYS
 ## INDIAN TAKE AWAY.
 
 This project is about the Indian take away named 4-GUYS.
-There are four forms (1)Main page or Home 
+There are four forms 
+(1)Main page or Home 
 (2) Menu 
 (3)Gallery 
 (4) Contact
@@ -42,6 +38,16 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media ,,
 https://www.google.com ,, 
 https://www.bootstrapcdn.com ,,
 https://www.youtube.com/results?search_query=media+queries+for+responsive+design
+
+## TESTING
+In this section i checked and tested the responsivenss of the project on all mobile devices,
+In contact us form i tested that no field should be left empty before sending the message.
+
+## ACKNOWLEDGEMENTS
+
+I received inspiration for this project from  www.namasteindia.ie
+
+
 
 
 
