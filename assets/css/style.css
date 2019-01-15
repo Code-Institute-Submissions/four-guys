@@ -30,7 +30,7 @@
 
 .general-sub {
     font-family: "Exo",sans-serif;
-    font-weight:300;
+    font-weight:200;
     color: #fafafa;
    margin-top: 20px;
     margin-bottom: 20px;
@@ -256,7 +256,7 @@
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
+    background-color: #e67e22;
     color: #fafafa;
 }
 
@@ -304,7 +304,6 @@ footer {
 
 .ioslogo {
     margin-top: 5px;
-    float: left;
     margin-bottom: 15px;
 }
 
@@ -317,25 +316,28 @@ footer {
 }
 
 /*---------media-querry-------------*/
-
-@media(min-width: 992px) {
+@media(min-width: 995px) {
     .section-column {
         padding: 0 30px 30px;
         float: none;
         display: table-cell;
     }
-
-    .center-form {
-        padding-top: 30px;
+    
+        .center-form {
+        padding-top: 10px;
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
     }
 }
 /*-------------Video Clip query----------*/
+
 @media screen and (max-width:1366px){
     .video iframe {
         width: 100%;
+    }
+    
+}
 
 @media screen and (max-width:700px){
     .video iframe {
