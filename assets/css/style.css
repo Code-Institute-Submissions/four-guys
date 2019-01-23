@@ -32,7 +32,7 @@
     font-family: "Exo",sans-serif;
     font-weight:200;
     color: #fafafa;
-   margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     
 }
@@ -116,18 +116,12 @@
 }
 
 .mrgn {
-    
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: #e67e22;
 }
 
 /*--------head-list------------*/
-
-/*.head-list h3 {
-    margin-top: 30px; 
-} */
-
 .phone-pic img {
     width: 40%;
     margin-left: 30%;
@@ -174,7 +168,7 @@
     height: 250px;
     width: 250px;
 }
-.prg_styl {
+.prg-styl {
     text-align: justify;
 }
 /*-------gallery-list----------*/
@@ -209,7 +203,6 @@
 }
 
 /* ---------Button Styling---------*/
-
 .buttons {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -221,7 +214,6 @@
     text-decoration: none;
     border-radius: 12px;
     margin-right: 20px;
-    
 }
 .btn-half {
     background-color: #e67e22;
@@ -230,10 +222,9 @@
 }
 .btn-full {
     margin-top: 10px;
-   margin-left: 45px;
+    margin-left: 45px;
 }
 .btn-full:hover {
-    
     background-color: #e67e22;
     color: white;
     transition: all .5s ease-in;
@@ -309,7 +300,6 @@ footer {
 
 /*-------------Audio Clip----------*/
 .audio-clip {
-    
     margin-top:50px;
     margin-bottom: 50px;
     
@@ -334,14 +324,14 @@ footer {
 
 @media screen and (max-width:1366px){
     .video iframe {
-        width: 100%;
+        width: 80%;
     }
     
 }
 
 @media screen and (max-width:700px){
     .video iframe {
-        width: 50%;
+        width: 70%;
     }
 }
 
