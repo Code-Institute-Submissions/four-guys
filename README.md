@@ -4,14 +4,14 @@
 
 This project is about the Indian take away named 4-GUYS.
 There are four forms 
-1. Main page or Home 
+1. Home 
 2. Menu 
 3. allery 
 4. Contact
 
-##  HOME.
+## HOME.
 In main page its explain how to order online and get 20% off every online order and explained in 4 simple steps.
-##  MENU.
+## MENU.
 In Menu page list of food items with relative pictures and discription along with two buttons mentioning the price 
  and the second button for order the food.
 ## GALLERY.
@@ -24,33 +24,43 @@ regarding our food and website issues etc.
 ### HEADER SECTION
 i put a logo on the top left corner.On the right side  used four font awsome images as home,menu,gallery and contact.
 ### FOOTER SECTION 
-contains three sections (1)Download (2)Opening and Closing Times (3)Follows Us
+Footer section have three columns  
+(1)Download  
+(2)Opening and Closing Times  
+(3)Follows Us  
+
 ### DOWNLOAD.
-In Download section mentioned apps for android and ios.
+In Download section i created two buttoms mentioning download app for android and ios.
 ### OPENING HOURS.
 In That section mentioned opening hrs for whole week.
 ### FOLLOW US.
 In that section mentioned three social media facebook,twitter and youtube to follow us.
 
 ## Technalogies Used
-1.HTML 
-2.CSS
-3.BOOTSTRAP
+* HTML 
+* CSS
+* BOOTSTRAP
 
 ## lINKS
-https://www.w3schools.com ,,
-https://developer.mozilla.org/en-US/docs/Web/CSS/@media ,,
-https://www.google.com ,, 
-https://www.bootstrapcdn.com ,,
-https://www.youtube.com/results?search_query=media+queries+for+responsive+design
+https://www.w3schools.com  
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media  
+https://www.google.com
+https://www.bootstrapcdn.com  
+https://www.youtube.com/results?search_query=media+queries+for+responsive+design  
 
 ## TESTING
-All code used on the site has been tested to ensure everything is working as expected
-I checked and tested the responsivenss of the project on all mobile devices.
-In contact us form i tested that no field should be left empty before sending the message.
+* All code used on the site has been tested to ensure everything is working as expected
+* I checked and tested the responsivenss of the project on all mobile devices.
+* In contact us form i tested that no field should be left empty before sending the message.
 
 ## ACKNOWLEDGEMENTS
 I received inspiration for this project from www.namasteindia.ie
+
+
+
+
+
+
 
 
 
