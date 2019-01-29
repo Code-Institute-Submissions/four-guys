@@ -1,13 +1,13 @@
    
-# 4-GUYS
+# FOUR-GUYS
 ## INDIAN TAKE AWAY.
 
 This project is about the Indian take away named 4-GUYS.
 There are four forms 
-(1)Main page or Home 
-(2) Menu 
-(3)Gallery 
-(4) Contact
+1. Main page or Home 
+2. Menu 
+3. allery 
+4. Contact
 
 ##  HOME.
 In main page its explain how to order online and get 20% off every online order and explained in 4 simple steps.
@@ -32,6 +32,11 @@ In That section mentioned opening hrs for whole week.
 ### FOLLOW US.
 In that section mentioned three social media facebook,twitter and youtube to follow us.
 
+## Technalogies Used
+1.HTML 
+2.CSS
+3.BOOTSTRAP
+
 ## lINKS
 https://www.w3schools.com ,,
 https://developer.mozilla.org/en-US/docs/Web/CSS/@media ,,
@@ -40,12 +45,12 @@ https://www.bootstrapcdn.com ,,
 https://www.youtube.com/results?search_query=media+queries+for+responsive+design
 
 ## TESTING
-In this section i checked and tested the responsivenss of the project on all mobile devices,
+All code used on the site has been tested to ensure everything is working as expected
+I checked and tested the responsivenss of the project on all mobile devices.
 In contact us form i tested that no field should be left empty before sending the message.
 
 ## ACKNOWLEDGEMENTS
-
-I received inspiration for this project from  www.namasteindia.ie
+I received inspiration for this project from www.namasteindia.ie
 
 
 
