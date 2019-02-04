@@ -193,8 +193,6 @@
     height: 250px;
     width: 100%;
 }
-
-
 /*-------image center-----------*/
 .center-image {
     text-align: center;
@@ -320,9 +318,6 @@ footer {
         max-width: 50%;
     }
 }
-
-
-
 .video-center {
 	position: relative;
 	padding-bottom: 56.25%; 
@@ -337,7 +332,6 @@ iframe {
 	width: 100%;
 	height: 100%;
 }
-
 /*---------media-querry-------------*/
 @media(min-width: 995px) {
     .section-column {
@@ -345,8 +339,7 @@ iframe {
         float: none;
         display: table-cell;
     }
-    
-        .center-form {
+     .center-form {
         padding-top: 10px;
         min-height: 240px;
         margin: 0 auto;

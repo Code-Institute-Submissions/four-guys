@@ -25,15 +25,15 @@ regarding our food and website issues etc.
 i put a logo on the top left corner.On the right side  used four font awsome images as home,menu,gallery and contact.
 ### FOOTER SECTION 
 Footer section have three columns  
-(1)Download  
-(2)Opening and Closing Times  
-(3)Follows Us  
+* Download  
+* Opening and Closing Times  
+* Follows Us  
 
-### DOWNLOAD.
+#### DOWNLOAD.
 In Download section i created two buttoms mentioning download app for android and ios.
-### OPENING HOURS.
+#### OPENING HOURS.
 In That section mentioned opening hrs for whole week.
-### FOLLOW US.
+#### FOLLOW US.
 In that section mentioned three social media facebook,twitter and youtube to follow us.
 
 ## Technalogies Used
@@ -50,7 +50,7 @@ https://www.youtube.com/results?search_query=media+queries+for+responsive+design
 
 ## TESTING
 * All code used on the site has been tested to ensure everything is working as expected
-* I checked and tested the responsivenss of the project on all mobile devices.
+* I checked and tested the responsivenss of the project on all mobile devices tablets and desktop.
 * In contact us form i tested that no field should be left empty before sending the message.
 
 ## ACKNOWLEDGEMENTS
