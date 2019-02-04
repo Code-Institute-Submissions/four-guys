@@ -6,7 +6,7 @@ This project is about the Indian take away named 4-GUYS.
 There are four forms 
 1. Home 
 2. Menu 
-3. allery 
+3. Gallery 
 4. Contact
 
 ## HOME.
